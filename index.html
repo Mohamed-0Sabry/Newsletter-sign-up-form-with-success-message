@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body class=>
+    <div
+      class="main bg-slate-100 h-fit absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-2xl p-4"
+    >
+      <div class="row flex flex-row relative">
+        <!-- First Col (Rigth Col) -->
+        <div class="col flex flex-col px-8 justify-center">
+          <h3 class="text-[42px] font-bold">Stay updated!</h3>
+          <p class="text-[12px] font-light mt-2">
+            Join 60,000+ product manegers receiving monthly updates on :
+          </p>
+          <div class="list flex flex-col text-[12px] mt-6 gap-2">
+            <div class="img-container flex gap-2 items-center">
+              <i class="fa-solid fa-circle-check"></i>
+              <p>Product Discovery and Buliding what metters</p>
+            </div>
+            <div class="img-container flex gap-2 items-center">
+              <i class="fa-solid fa-circle-check"></i>
+              <p>Measuring to ensure updates are a success</p>
+            </div>
+            <div class="img-container flex gap-2 items-center">
+              <i class="fa-solid fa-circle-check"></i>
+              <p>And much more!</p>
+            </div>
+          </div>
+          
+          <!-- TODO: ADJUST the email seciton, and add Button of the subscription-->
+          
+          <form action="" class="mt-6 text-base">
+            <label for="email" class="block text-[10px] font-medium text-gray-900">Email address</label>
+            <input type="email" name="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-md focus:ring-purple-500 block w-full px-4 py-3 dark:bg-gray-600" placeholder="name@company.com" required>
+
+            <button type="submit" class="button w-full mt-4 text-white font-medium rounded-md text-[12px] px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900 role="button">
+              Subscribe to monthly newsletter
+            </button>
+          </form>
+        </div>
+        <!-- Second Col (Left Col) -->
+        <div class="">
+          <img
+            src="illustration-sign-up-desktop.svg"
+            alt="illustration-sign-up-desktop"
+            class=""
+          />
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/fcf8266609.js"
+      crossorigin="anonymous"
+      ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+  </body>
+</html>

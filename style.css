@@ -25,6 +25,15 @@ body {
   color: var(--Tomato);
 }
 
-.button {
+.button,
+.secondButton {
   background-color: var(--Dark-Slate-Grey) !important;
+}
+
+.isActive {
+  opacity: 1 !important;
+}
+
+.text-span {
+  font-weight: 600;
 }

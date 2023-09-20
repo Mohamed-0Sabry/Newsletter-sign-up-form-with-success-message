@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Newsletter | Succesful Subscription</title>
+  </head>
+  <body class="">
+    <main
+      class="w-[25%] max-lg:w-fit shadow-2xl shadow-black/50 flex flex-col gap-5 bg-slate-100 py-6 px-12 absolute left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 rounded-2xl"
+    >
+      <img src="icon-success.svg" alt="icon-success" class="w-[40px]" />
+      <h1 class="header text-[40px] font-extrabold leading-10 cursor-default">
+        Thanks for subscribing!
+      </h1>
+      <p id="para-Data">
+        A confirmation email has been sent to
+        <span id="span"></span>
+        . Please open it and click the button inside to confirm your
+        subscription
+      </p>
+      <button
+        type="button"
+        role="button"
+        class="secondButton w-full mt-4 text-white font-medium rounded-md text-[12px] px-5 py-2.5 mb-2 hover:bg-gradient-to-l hover:from-[#ff6a3a] hover:to-[#ff527b] hover:shadow-lg hover:shadow-[#ff6a3a]/70"
+      >
+        Dismiss message
+      </button>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+    <script src="secondMain.js"></script>
+  </body>
+</html>
